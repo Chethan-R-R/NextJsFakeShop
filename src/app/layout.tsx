@@ -1,4 +1,4 @@
-'use client'
+
 import React from 'react'
 import './globals.css'
 import Profile from './components/profileCart'
@@ -6,6 +6,11 @@ import { Children } from '../../types'
 import MainNav from './components/mainNav'
 import MainNavMob from './components/mainNavMob'
 import { GetSetCart, GetSetUser } from '../../context/Providers'
+import { Metadata } from 'next'
+export const metadata: Metadata = {
+  title: 'rrshopping',
+  description: 'a shopping website user can add products to his cart and search for products',
+};
 export default function RootLayout({children}:Children) {
   return (
     <html>

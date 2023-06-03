@@ -1,4 +1,4 @@
-import { JsxChild } from 'typescript'
+'use client'
 import {UserDetailsContext,CartDetailsContext} from './Creaters'
 import {  useState } from 'react'
 import { Children, carttype, login, userDetails } from '../types'

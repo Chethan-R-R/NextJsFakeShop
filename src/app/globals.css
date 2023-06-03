@@ -64,6 +64,9 @@ body{
   background-color: #6C00FF;
   color: rgba(255, 225, 0, 1);
 }
+.registerform{
+  min-height: 500px;
+}
 @keyframes updown {
   from{
       transform:  translateY(0);
@@ -193,7 +196,7 @@ body{
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    overflow: hidden;
+    overflow-y: scroll;
     z-index: -1;
     opacity: 0;
     transition-duration: 800ms;

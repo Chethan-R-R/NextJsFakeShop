@@ -1,6 +1,4 @@
 import React from 'react'
-
-import { title } from 'process'
 import { getCategories, getProductsCategory } from '../../../../fetchers/product'
 import { Product } from '../../../../types'
 import ProductDisplay from '@/app/components/ProductDisplay'
