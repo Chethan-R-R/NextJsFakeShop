@@ -37,7 +37,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 0 20px 30px black ;
+  box-shadow: 0 10px 20px black ;
   z-index: 1;
 }
 .logolink{
@@ -190,6 +190,7 @@ body{
 }
 
 @media screen and (max-width:1000px) {
+  
   .profile{
     position: fixed;
     background-color: #2C3333;
@@ -889,7 +890,7 @@ body{
 }
 .loginpage{
   width: 100%;
-  height: 100%;
+  height: 90%;
   display: flex;
   align-items: center;
   justify-content: center;
