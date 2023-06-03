@@ -2,5 +2,4 @@
 
 
 #Key Technologies
-Next js
-Typescript
+
