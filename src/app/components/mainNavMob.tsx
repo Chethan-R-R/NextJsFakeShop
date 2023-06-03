@@ -19,7 +19,7 @@ export default function MainNavMob() {
 
   useEffect(()=>{
     const search:(JSX.Element | undefined)[] |undefined=products?.map(product=>{
-      if(product.title.toLowerCase().search(keyword)!=-1)return <Link href={`/product/${product.id}`} key={product.id} style={{textDecoration:'none'}}><p>{product.title}</p></Link>
+      if(product.title.toLowerCase().search(keyword.toLocaleLowerCase())!=-1)return <Link href={`/product/${product.id}`} key={product.id} style={{textDecoration:'none'}}><p>{product.title}</p></Link>
     })
     setSearch(search)
   },[keyword])
