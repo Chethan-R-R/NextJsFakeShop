@@ -1,4 +1,4 @@
-#rrshopping-NextJsFakeShop
+#rrshoppingNextJsFakeShop
 
 
 #Key Technologies
