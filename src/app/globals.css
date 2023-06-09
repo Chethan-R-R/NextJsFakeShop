@@ -37,7 +37,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 0 100px 20px black ;
+  box-shadow: 0 10px 20px black ;
   z-index: 1;
 }
 .logolink{
@@ -754,7 +754,7 @@ body{
   background-color: white;
   margin-left: 15px;
 }
-.searchmob>.searchinput>button{
+.searchmob>.searchinput>div{
   cursor: pointer;
   background-color: white;
   height: 30px;
@@ -764,8 +764,8 @@ body{
   font-weight: 800;
   font-size: large;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
 
 .btnprofilecontrol{
