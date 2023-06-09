@@ -754,7 +754,7 @@ body{
   background-color: white;
   margin-left: 15px;
 }
-.searchmob>.searchinput>div{
+.searchmob>.searchinput>button{
   cursor: pointer;
   background-color: white;
   height: 30px;
