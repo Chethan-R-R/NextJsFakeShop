@@ -9,7 +9,7 @@
 
 ## Description
 
-A user-friendly and efficient e-commerce platform that uses Fake Store API. With a sleek and intuitive user interface, the app allows users to easily search for products add to cart
+A user-friendly and efficient e-commerce platform that uses Fake Store API. With intuitive user interface, the app allows users to easily search for products add to cart
 
 
 https://github.com/Chethan-R-R/NextJsFakeShop/assets/119437771/63f2427d-b9f8-4a37-a41e-b6885e60f578
